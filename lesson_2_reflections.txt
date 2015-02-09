@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Prior to initializing a repository, changes are not tracked with git. By 
+initializing you tag the repository as one in which you want to track 
+changes. Git does not create the first commit when initialized: that is up 
+to the user, but it does prepare it to allow you to do so.
+
+___________________________________________________________________________
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+The staging area allows you to choose which files in a repository will be 
+included in a given commit. In this way you can commit only those files
+that you changed. It helps with the concept of "one logical change per
+commit" by reducing the number of potential files that might need to be
+looked through to determine where the changes in a commit are.

@@ -1,0 +1,90 @@
+How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+
+Looking through a document thick with text can be a long and arduous 
+process, especially if you are looking for errors or bugs. We tend
+to skim over sentences that we read, picking out whole words rather than
+sounding out the inidivual characters. This is the heart of fast reading.
+The problem here is that it is very easy to miss internal differences in
+words when the first and last few characters are correct.
+
+Using software to compare the differences between two documents is
+infinitely faster than doing it manually. Computers specialize in arduous,
+precise tasks such as a direct character comparison like that found in the
+diff command. Far faster than any human can do, a computer will look at
+each character on both documents, compare them, and move to the next. It 
+will flag any differences it finds. This takes very little time, less than
+a second in many cases.
+
+Comparing a new version of code with an old version of code is a task that
+diff was made for. The old code worked, but the new code doesn't. It can
+be very usful to do a quick comarison and determine where the new code
+might contain text that is subtly different from the old version. This can
+help find such bugs.
+
+___________________________________________________________________________
+How could having easy access to the entire history of a file make you a
+more efficient programmer in the long term?
+
+By being able to go back and look at code that worked. At many points in
+software development bugs can creep into the code. It can be extremely
+usful to have a "paper trail" to go back and refer to to find out when
+the bug appeared. It can also save large amounts of time by allowing you
+to retreive a working version of the code to build from rather than a)
+starting over from scratch; or b) trying to prune out parts of code that
+might be a problem.
+
+___________________________________________________________________________
+What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like
+Google docs does?
+
+On the pros side, being able to choose when you commit changes allows you 
+to ensure each version is made at a logic point in the program. If the
+commit were to happen when a line was only half complete, the version would
+be incpomplete or illogical and might not work.
+
+On the con side, you might not commit often enough, potentially losing a
+lot of work shold something go wrong during development. Or, on the other
+hand, you might committ too often, creating far more versions that are 
+really necessary.
+
+__________________________________________________________________________
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each
+file separately?
+
+It gives the user levels of control and convenience. In the case of saving 
+files together in one commit you no longer have to keep track of when each
+was committed in order to ensure which version of which file goes with 
+which.
+
+___________________________________________________________________________
+How can you use the commands git log and git diff to view the history of 
+files?
+
+Git log will list all commits on a file or directory, showing their commit 
+id, who committed it, when they did so, and a brief description of the 
+changes made. Using git diff on the commit ids of two different commits 
+will show the differences between the two commits. Configured correctly
+git will display the insertions (those items added from the earlier 
+version to the later version) in green and deletions (those items removed 
+in the later version) in red, allowing the user to quickly and easily see 
+the differences.
+
+___________________________________________________________________________
+How might using version control make you more confident to make changes 
+that could break something?
+
+Knowing that I have older versions that worked stored that I can access 
+any time I want is very usful. I can make a change to my code, possibly a 
+fairly radical one, and know that I can always pull up a version of the 
+code that worked. 
+
+___________________________________________________________________________
+Now that you have your workspace set up, what do you want to try using Git 
+for?
+
+I primarily want experience using git. I have a few projects I am working 
+on that I would like to store in a repository. Using bash will also be 
+useful by giving me more experience with linux style commands.
