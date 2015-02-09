@@ -14,3 +14,13 @@ included in a given commit. In this way you can commit only those files
 that you changed. It helps with the concept of "one logical change per
 commit" by reducing the number of potential files that might need to be
 looked through to determine where the changes in a commit are.
+
+___________________________________________________________________________
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+By ensuring you have only one file in the staging area when you commit you 
+can greatly reduce the chance that you will have more than one logical 
+change per commit, although it won't necessarily negate the chance. You 
+can still have multiple logical changes in a single file, but it is more 
+difficult to have one logical change across multiple files.
