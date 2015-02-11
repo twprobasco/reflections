@@ -24,3 +24,14 @@ can greatly reduce the chance that you will have more than one logical
 change per commit, although it won't necessarily negate the chance. You 
 can still have multiple logical changes in a single file, but it is more 
 difficult to have one logical change across multiple files.
+
+___________________________________________________________________________
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+As described in the lesson, branches are useful for when you have working
+code and want to try a variation in functionality without breaking what you
+currently have. By branching you create a copy of the master (or wherever 
+the head is) and then "branch off" at that point. The main branch stays 
+intact and unchanged, but you are free to make any changes to the new 
+branch.
