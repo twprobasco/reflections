@@ -35,3 +35,13 @@ currently have. By branching you create a copy of the master (or wherever
 the head is) and then "branch off" at that point. The main branch stays 
 intact and unchanged, but you are free to make any changes to the new 
 branch.
+
+___________________________________________________________________________
+How do the diagrams help you visualize the branch structure?
+
+As with any visualization activity, by drawing out the branch structure you
+can see how the commits and branches relate to each other and can readily
+identify where each branch exists in relation to the others, and which
+commits are reachable from each branch. This can help you see why a bug fix
+or feature is not included in a particlar commit that may be in a different
+branch.
