@@ -45,3 +45,14 @@ identify where each branch exists in relation to the others, and which
 commits are reachable from each branch. This can help you see why a bug fix
 or feature is not included in a particlar commit that may be in a different
 branch.
+
+___________________________________________________________________________
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+
+Merging two branches incorporates the changes from two branches into a new 
+commit. This allows developers to create new features or work 
+independently of one another and then combine their efforts into a working 
+version without stepping on each other's toes. It is represented in the 
+diagram as two branches coming together because that is effectively what 
+is happening.
