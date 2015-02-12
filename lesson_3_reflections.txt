@@ -15,3 +15,9 @@ You might not always be connected to the internet, thereby not having
 access to the remote repository. It also gives you an extra level of 
 control and security, in case there is malicious code in a remote 
 repository. 
+
+________________________________________________________________________
+Describe the differenecs between forks, clones, and branches. When 
+would you use one instead of another?
+
+Branches are copies of the files in a repository made locally. The local machine has the rights to modify and change files in a branch. Clones and forks are similar, in that they are copies of remote repositories. Clones however copy the remote to a local machine, while forks copy the remote to your github. You may or may not have rights to commit changes to a clone, but not to a fork.
